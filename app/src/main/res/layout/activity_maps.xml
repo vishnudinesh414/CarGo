@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!--fragment to display our maps-->
+    <androidx.fragment.app.FragmentContainerView xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/map"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MapsActivity" />
+
+    <!--search view to search our location-->
+
+    <androidx.appcompat.widget.SearchView
+        android:id="@+id/idSearchView5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="0dp"
+        android:background="#BFBFBF"
+        android:elevation="5dp"
+        app:iconifiedByDefault="false"
+        app:queryHint="Enter waypoint 3" />
+
+    <androidx.appcompat.widget.SearchView
+        android:id="@+id/idSearchView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="0dp"
+        android:background="#BFBFBF"
+        android:elevation="5dp"
+        app:iconifiedByDefault="false"
+        app:queryHint="Enter waypoint 2" />
+
+    <androidx.appcompat.widget.SearchView
+        android:id="@+id/idSearchView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="0dp"
+        android:background="#BFBFBF"
+        android:elevation="5dp"
+        app:iconifiedByDefault="false"
+        app:queryHint="Enter waypoint 1" />
+
+
+
+    <androidx.appcompat.widget.SearchView
+        android:id="@+id/idSearchView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="0dp"
+        android:background="#BFBFBF"
+        android:elevation="5dp"
+        app:iconifiedByDefault="false"
+        app:queryHint="Enter drop location" />
+
+
+    <androidx.appcompat.widget.SearchView
+        android:id="@+id/idSearchView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="0dp"
+        android:background="#BFBFBF"
+        android:elevation="5dp"
+        app:iconifiedByDefault="false"
+        app:queryHint="Enter from location" />
+
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="550dp"
+
+        android:text="@string/create_ride"
+        app:cornerRadius="150dp" />
+
+
+</RelativeLayout>

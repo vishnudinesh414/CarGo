@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "333897721441",
+    "project_id": "searchmapfirebase",
+    "storage_bucket": "searchmapfirebase.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:333897721441:android:a22aff8c4fb420325eec20",
+        "android_client_info": {
+          "package_name": "com.example.searchmap"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "333897721441-k52jrr0htr4k6nrb54vih09o6ef9qk4q.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyACHa62sk8z6fmyckXTy8OTGLk6SKXy1b4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "333897721441-k52jrr0htr4k6nrb54vih09o6ef9qk4q.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

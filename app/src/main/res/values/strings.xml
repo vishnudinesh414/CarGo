@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">RequestRide</string>
+    <string name="title_activity_maps">MapsActivity</string>
+    <string name="create_ride">create ride</string>
+</resources>
